@@ -1,0 +1,7 @@
+// git init (for git hub initialization)
+// git add file name (specify file to be added)
+// git add. (for all files)
+// git commit -m "Desc name" (To commit Name)
+// git branch -M main (To selct branch)
+// git remote add origin (URL of the reposiory)
+// git push -u origin main (to push the file in repository)
