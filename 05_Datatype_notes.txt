@@ -1,0 +1,18 @@
+There are 7 type of (DATA TYPES).
+01 Primitive String - Number - Boolean - Null - Undefined - Symbol - BigInt
+02 Referance (Non -Primitive)
+
+
+Need To Learn Array / Objects / Functions
+
+// And is JS is a dynamically typed language or statically typed language
+
+// Some Data type Examples --------
+//01 undefined
+for an undefined value 
+const var; or const var = undefined (it does not have value as well as type.)
+
+//02 null
+const var = null (Means it dosent have any value to begin with)
+
+//03 
