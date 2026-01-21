@@ -1,4 +1,4 @@
-// There are teo type of memory 1. STACK 2. HEAP
+// There are two type of memory 1. STACK 2. HEAP
 
 //01 - STACK MEMORY
 // Stack memory is used to store primitive data types like Number, String, Boolean, Undefined, Null, Symbol
