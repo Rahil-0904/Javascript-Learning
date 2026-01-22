@@ -55,6 +55,9 @@ console.log(nintendoSwitchspecsheet.trim());
 // To replace a particular string with another string.
 console.log(nintendoSwitchspecsheet.replace("NVIDIA", "AMD"));
 
+// To split a string into array of strings based on a particular separator.
+console.log(sonyPlaystation5specsheet.split(" "));
+
 // Either way it dosent change the value of the string as learned in Stack memory lesson.
 
 
