@@ -34,9 +34,29 @@ const myMangalist = ["One Punch Man", "Black Clover"];
 console.log("A", myanimelist.slice(1, 3)); // Slice picks the value from the array.
 console.log("B", myMangalist.splice(0, 1)); // Work as slice but also makes change in original array
 
+// Lets join two arrays
+const alphabets = ["A", "B", "C", "D"];
+const numbers = [1, 2, 3, 4];
 
+// lets use pushoperator to join two arrays
+alphabets.push(...numbers);
+console.log(alphabets);
 
+// You can also use concat method to join two arrays
+const combinedArray = alphabets.concat(numbers); // Concat method does not change the original arrays
+console.log(combinedArray);
 
+// lets join two arrays using spread operator
+const joinedArray = [...alphabets, ...numbers];
+console.log(joinedArray);
 
+// Lets flatten an array
+const weapons = [["Sword", "Axe"], ["Bow", "Dagger"], ["Spear", "Mace"]];
+const flatWeapons = weapons.flat();
+console.log(flatWeapons);
 
- 
+// lets convert string to array
+const myMovies = "Batman the dark knight";
+console.log(Array.from(myMovies)); // Array.from method converts string to array 
+console.log(myMovies.split(" ")); // split method also converts string to array based on the provided separator
+
