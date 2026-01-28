@@ -48,6 +48,10 @@ console.log(Object.values(car)); // Returns an array of values
 // To get all entries (key-value pairs) of an object
 console.log(Object.entries(car)); // Returns an array of [key, value] pairs 
 
+// To check if the value exist in an object
+console.log(car.hasOwnProperty('Mahindra')); // Return a Boolean value 
+
+
 //lets add functions in the object
 car.enginemodel = function() {
     return console.log("V8");
@@ -60,3 +64,58 @@ car.companymodel = function() {
 }
 
 console.log(car.companymodel());
+
+// To declare a object in a singleton way
+const instaUser = {};
+const xUser = new Object();
+
+const bumbleUser = {
+    bumbleUser: "my Ass", // Adding key in an object and also object can be nested.
+    email: "myass@gmail.com",
+    Looks: {
+        eyes: "sharp",
+        height: 5.9,
+        weight: "63KG"
+    }
+}
+console.log(bumbleUser);
+
+// Lets combine Two Objects
+
+const oB1 = {
+    a: 1,
+    b: 2
+}
+
+const oB2 = {
+    c: 3,
+    d: 4
+}
+
+/*let oB3 = {
+    oB1, oB2
+}*/
+
+// console.log(oB3) // So  this method add two objects by always provides a object.
+// console.log(oB3 = Object.assign({}, oB1, oB2)); // Using Assign Method
+let oB3 = {
+    ...oB1, ...oB2
+} 
+
+console.log(oB3); // Using spread method.
+
+// Destructre a  Object
+
+const bikeCollection = {
+    RoyalEnfeild: "Hunter 350",
+    Yamaha: "R15",
+    Trimph: "Speed 400"
+}
+
+const {Trimph} = bikeCollection // To extract a value from an Object
+console.log(Trimph);
+
+const {RoyalEnfeild: Rajdut} = bikeCollection // To change a key name under a Object
+console.log(Rajdut);
+
+
