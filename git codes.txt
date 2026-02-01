@@ -4,4 +4,5 @@
 // git commit -m "Desc name" (To commit Name)
 // git branch -M main (To selct branch)
 // git remote add origin (URL of the reposiory)
+// git remote set-url origin (To refesh a remote repository link)
 // git push -u origin main (to push the file in repository)
