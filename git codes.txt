@@ -1,3 +1,24 @@
+
+********** GIT CODES *********
+
+// git log (To See Details like
+Commit ID (a unique hash)
+Author (your name and email)
+Date and time
+Commit message)
+// git checkout <ID>(To rollback to previous version of the file)
+// git add <file name> (To Add a specific file in staging area)
+// git add <file 1> <file 2> <file 3> (To add multiple files at once)
+// git add . (To add all changes in files ) 
+// git config --global user.name "NAME" (To Add User Name in Git Commit)
+// git config --global user.email "EMAIL" (To Add User Email in Git Commit)
+// git commit -am "Message" (TO skip git add if already modified and update in commit messages with changes)
+// git show <commitid> (To show the commited Message)
+
+
+
+********** GIT REPOSITORY initialization *********
+
 // git init (for git hub initialization)
 // git add file name (specify file to be added)
 // git add . (for all files)
@@ -6,3 +27,25 @@
 // git remote add origin (URL of the reposiory)
 // git remote set-url origin (To refesh a remote repository link)
 // git push -u origin main (to push the file in repository)
+
+
+
+********** GIT BRANCHES *********
+
+// git branch (To View all Available branches)
+// git branch <branch-name> (To create a New git branch)
+// git switch <branch-name> (To switch working on branch)
+// git switch -c <branch-name> (To Create and switch on a branch at once)
+// git switch master (To Switch to main branch)
+// git branch -v (To View all branches with thier latest commits)
+// git diff (To View difference in working directory vs latest commit)
+// git diff --staged (To View difference staged not yet commited)
+// git diff <branch1> <branch2> (To View difference in two branches)
+// git diff <commit1> <commit2> (To View difference in two commit)
+
+
+
+********** GIT BRANCHES MERGER *********
+
+// git switch master (To Switch to main branch)
+// git merge <branch-name> (Merges all changes from mentioned branch into master branch)
