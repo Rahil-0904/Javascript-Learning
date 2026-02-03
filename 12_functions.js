@@ -50,3 +50,8 @@ function animedocs(...animeName) { // Using rest operator to accept object as ar
     
 }
 animedocs(myAnimes); // Passing object as an argument to the function
+
+
+
+
+
